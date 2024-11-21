@@ -9,7 +9,7 @@
 #include <unistd.h>
 
 #define BUFFER_LENGTH 1024
-#define CONNECTION_SIZE 1024
+#define CONNECTION_SIZE 1048576
 
 typedef int(*RCALLBACK)(int fd);
 
